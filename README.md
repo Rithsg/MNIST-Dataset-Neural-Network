@@ -18,12 +18,13 @@ Model Summary of the Best-Performing Model:-
 
 Model: "sequential_8"
 
-  Layer (type)                      Output Shape                   Param # 
-  
-  dense_20 (Dense)                  (None, 256)                   200,960 
-  dense_21 (Dense)                  (None, 256)                    65,792 
-  dense_22 (Dense)                  (None, 10)                     2,570 
- Total params: 269,322 (1.03 MB)
- Trainable params: 269,322 (1.03 MB)
- Non-trainable params: 0 (0.00 B)
+S.No.            Layer (type)                      Output Shape                   Param # 
+
+  1)                dense_20                         (None, 256)                   200,960
+  2)                dense_21                         (None, 256)                   65,792
+  3)                dense_22                         (None, 10)                    2,570
+
+Total params: 269,322 (1.03 MB)
+Trainable params: 269,322 (1.03 MB)
+Non-trainable params: 0 (0.00 B)
 
