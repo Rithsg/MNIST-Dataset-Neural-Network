@@ -24,7 +24,7 @@ S.No.            Layer (type)                      Output Shape                 
   2)                dense_21                         (None, 256)                   65,792
   3)                dense_22                         (None, 10)                    2,570
 
-Total params: 269,322 (1.03 MB)\n
-Trainable params: 269,322 (1.03 MB)\n
+Total params: 269,322 (1.03 MB)__
+Trainable params: 269,322 (1.03 MB)__
 Non-trainable params: 0 (0.00 B)
 
