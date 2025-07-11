@@ -17,15 +17,12 @@ Config  Epochs  Layers  Neurons  Activation  Optimizer  Test Accuracy(%)
 Model Summary of the Best-Performing Model:-
 
 Model: "sequential_8"
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ dense_20 (Dense)                │ (None, 256)            │       200,960 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_21 (Dense)                │ (None, 256)            │        65,792 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_22 (Dense)                │ (None, 10)             │         2,570 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
+
+  Layer (type)                      Output Shape                   Param # 
+  
+  dense_20 (Dense)                  (None, 256)                   200,960 
+  dense_21 (Dense)                  (None, 256)                    65,792 
+  dense_22 (Dense)                  (None, 10)                     2,570 
  Total params: 269,322 (1.03 MB)
  Trainable params: 269,322 (1.03 MB)
  Non-trainable params: 0 (0.00 B)
